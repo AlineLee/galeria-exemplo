@@ -16,7 +16,7 @@ footer p {
 }
 
 main {
-	max-width: 850px;
+	max-width: 1024px;
 	margin: 0 auto;
 }
 
@@ -37,7 +37,6 @@ li img {
 }
 
 .galeria-float li {
-	box-sizing: border-box;
 	float: left;
 	max-width: 20%;
 	padding-right: 1.3em;
@@ -70,4 +69,8 @@ li img {
 	padding-left: 0.1em;
 	padding-right: 0.1em;
 	box-sizing: border-box;
+}
+
+.text {
+	clear: both;
 }
